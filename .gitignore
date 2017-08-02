@@ -11,10 +11,14 @@ Web.config
 #project specific
 node_modules/
 .sass-cache/
+yarn.lock
 
 #Conflict files
 *.orig
 *.resolve
+
+#Config Files
+ftp.json
 
 #Compiled files
 Stylesheets/

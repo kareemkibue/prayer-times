@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<title>Browser Viewport</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="src/main.css">
+</head>
+
+<body>
+
+    <div id="slider">
+        <div class="el">
+            <div class="inner">
+                <p class="time" id="fajr-time">0000</p><i class="wi wi-horizon-alt"></i>
+                <h3>Fajr</h3>
+            </div>
+        </div>
+        <div class="el">
+            <div class="inner">
+                <p class="time" id="dhuhr-time">0000</p><i class="wi wi-day-sunny"></i>
+                <h3>Dhuhr</h3>
+            </div>
+        </div>
+        <div class="el">
+            <div class="inner">
+                <p class="time" id="asr-time">0000</p><i class="wi wi-day-cloudy"></i>
+                <h3>Asr</h3>
+            </div>
+        </div>
+        <div class="el">
+            <div class="inner">
+                <p class="time" id="maghrib-time">0000</p><i class="wi wi-sunset"></i>
+                <h3>Maghrib</h3>
+            </div>
+        </div>
+        <div class="el">
+            <div class="inner">
+                <p class="time" id="isha-time">0000</p><i class="wi wi-night-clear"></i>
+                <h3>Isha</h3>
+            </div>
+        </div>
+    </div>
+    <div class="time-of-day" id="time-of-day"></div>
+    <!--script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js")-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+    <script src="src/main.js"></script>
+</body>
+
+</html>

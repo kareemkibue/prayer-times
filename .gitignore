@@ -1,0 +1,31 @@
+syntax: glob
+
+#Hidden files
+*.DS_Store
+*[Tt]humbs.db
+*.Trashes
+
+.htaccess
+Web.config
+
+#project specific
+node_modules/
+.sass-cache/
+
+#Conflict files
+*.orig
+*.resolve
+
+#Compiled files
+Stylesheets/
+Scripts/
+*.map
+
+#Log files
+*.log
+*.debug
+logs/*
+
+# Visual Studio, VS-Code Settings
+.vscode/
+.vs
